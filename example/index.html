@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpack App</title>
+  </head>
+
+  <body>
+    <script type="module">
+      import PromisedLoad from "../dist/promisified-loaders.min.js";
+
+      PromisedLoad.GetGLTF("./models/Silas_Fractured.gltf").then(gltfModel => {
+        console.log(gltfModel);
+      });
+    </script>
+  </body>
+</html>
