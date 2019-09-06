@@ -7,9 +7,9 @@
 
   <body>
     <script type="module">
-      import PromisedLoad from "../dist/promisified-loaders.min.js";
+      import { GetGLTF } from "../dist/promisified-loaders.min.js";
 
-      PromisedLoad.GetGLTF("./models/Silas_Fractured.gltf").then(gltfModel => {
+      GetGLTF("./models/Silas_Fractured.gltf").then(gltfModel => {
         console.log(gltfModel);
       });
     </script>
