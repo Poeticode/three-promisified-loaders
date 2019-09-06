@@ -1,8 +1,9 @@
 {
   "name": "three-promisified-loaders",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility to easily use the various loaders in Three.js",
-  "module": "dist/promisified-loaders.min.js",
+  "main": "dist/promisified-loaders.min.js",
+  "module": "_src/index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --profile --colors"
   },
