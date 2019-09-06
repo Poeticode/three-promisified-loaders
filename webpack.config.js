@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const plugins = [
   new CleanWebpackPlugin(),
-  new MinifyPlugin()
+  // new MinifyPlugin()
 ];
 
 // Webpack Configuration

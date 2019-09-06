@@ -1,6 +1,6 @@
 {
   "name": "three-promisified-loaders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to easily use the various loaders in Three.js",
   "main": "dist/promisified-loaders.min.js",
   "scripts": {
