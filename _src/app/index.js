@@ -1,9 +1,7 @@
-const files = require.context('./loaders/', false, /\.js$/);
-const loaders = {};
+import { Get3MF } from './loaders/get-3mf.js';
+import { GetGLTF } from './loaders/get-gltf.js';
 
-files.keys().forEach((key) => {
-  if (key === './index.js') return;
-  loaders[key.replace(/(\.\/|\.js)/g, '')] = files(key).default;
-});
-
-export default loaders;
+export default {
+    Get3MF,
+    GetGLTF
+};
