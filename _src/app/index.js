@@ -1,7 +1,5 @@
-import { Get3MF } from './loaders/get-3mf.js';
-import { GetGLTF } from './loaders/get-gltf.js';
+import { GetGLTF } from './loaders/get-gltf';
 
-export default {
-    Get3MF,
+export {
     GetGLTF
-};
+}
